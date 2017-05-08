@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WA State Parks</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Washington State Parks</h1>
+      </header>
+      <form>
+        <label for="parks">Find a Park!</label>
+        <select id="parks" name="parks">
+          <option value="default">Choose One:</option>
+          <option value="Olympic NP">Olympic National Park</option>
+          <option value="Rainier NP">Mount Rainier National Park</option>
+          <option value="Baker NF">Mount Baker-Snoqualmie National Forest</option>
+          <option value="Wenatchee NF">Wenatchee National Forest</option>
+          <option value="North Cascades NP">North Cascades National Park</option>
+        </select>
+      </form>
+      <div id="map"></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOxG5sZbIQQI5Esa6mh5Tcvu_q6ggMmsI&callback=initMap"
+    async defer></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
