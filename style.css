@@ -1,0 +1,19 @@
+html, body, main {
+    height: 100%;
+    background-color: forestgreen;
+    color: lightgreen;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+	width: 80%;
+	padding-left: 10%;
+}
+
+form {
+	padding-bottom: 1rem;
+}
+
+#map {
+	height: 100%;
+}
