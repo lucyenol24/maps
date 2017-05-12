@@ -2,32 +2,32 @@ var locations = [
 	{
 		"name": "Olympic NP",
 		"lat": 47.8021,
-		"lng": 123.6044,
+		"lng": -123.6044,
 		"zoom": 18
 	},
 	{
 		"name": "Rainier NP",
 		"lat": 46.8800, 
-		"lng": 121.7269,
+		"lng": -121.7269,
 		"zoom": 18
 	}, 
 	{
 		"name": "Baker NF",
 		"lat": 48.2342, 
-		"lng": 121.1735,
+		"lng": -121.1735,
 		"zoom": 18
 	},
 	{
 		"name": "Wenatchee NF",
 		"lat": 47.8477, 
-		"lng": 120.7076,
+		"lng": -120.7076,
 		"zoom": 18
 	},
   
     {
         "name": "North Cascades NP",
         "lat": 48.7718,
-        "lng": 121.2985,
+        "lng": -121.2985,
         "zoom": 18
     }];
 
